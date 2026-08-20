@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Playfair Display", serif;
+  --font-sans: "Inter", sans-serif;
+  --color-brand: #d8617c;
+  --color-brand-dark: #b8435f;
+  --color-brand-light: #fceef2;
+  --color-pink-soft: #fcf4f6;
+  --color-pink-border: #f0d5dd;
+  --color-dark: #2e1c22;
+  --color-darker: #23171a;
+}
+
+@keyframes marquee {
+  0% { transform: translateX(0%); }
+  100% { transform: translateX(-50%); }
+}
+
+@keyframes shimmer {
+  100% { transform: translateX(100%); }
+}
+
+.animate-marquee {
+  animation: marquee 25s linear infinite;
+}
+
+body {
+  @apply font-sans bg-[#faf6f7] text-[#2e1c22] selection:bg-[#f7d0db] selection:text-[#b8435f];
+}
+
+h1, h2, h3, h4, h5, h6, .font-serif {
+  @apply font-serif;
+}
+
+
