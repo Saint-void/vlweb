@@ -1,14 +1,14 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { motion } from 'motion/react';
-import { 
-  Sparkles, 
-  Quote, 
-  Award, 
-  Heart, 
-  Compass, 
-  ShieldCheck, 
-  ArrowRight, 
+import {
+  Sparkles,
+  Quote,
+  Award,
+  Heart,
+  Compass,
+  ShieldCheck,
+  ArrowRight,
   Calendar,
   MessageCircle,
   CheckCircle2,
@@ -30,7 +30,7 @@ const MILESTONES = [
   {
     year: '2013',
     title: 'The Inception in Abule-Egba',
-    description: 'Freda Francis established VL Medspa in the tranquil heart of Ikoyi, Lagos, with a pioneering mission to bring international clinical aesthetic standards to Nigeria.'
+    description: 'Freda Francis established VL Medspa in the tranquil heart of Abule-Egba, Lagos, with a pioneering mission to bring international clinical aesthetic standards to Nigeria.'
   },
   {
     year: '2016',
@@ -75,7 +75,7 @@ const PHILOSOPHY_PILLARS = [
 export default function Founder() {
   return (
     <div className="bg-[#faf6f7] min-h-screen text-[#2e1c22] selection:bg-[#f7d0db] selection:text-[#b8435f]">
-      
+
       {/* Navigation Header */}
       <Navigation />
 
@@ -104,7 +104,7 @@ export default function Founder() {
             transition={{ duration: 0.6, delay: 0.1 }}
             className="text-[#5c4a50] font-light text-base md:text-lg max-w-3xl mx-auto leading-relaxed"
           >
-           Lindiwe Sogolo — Visionary entrepreneur, aesthetic pioneer, and the driving force behind West Africa’s most distinguished wellness sanctuary.
+            Lindiwe Sogolo — Visionary entrepreneur, aesthetic pioneer, and the driving force behind West Africa’s most distinguished wellness sanctuary.
           </motion.p>
         </div>
       </section>
@@ -113,7 +113,7 @@ export default function Founder() {
       {/* ================= SECTION 1: EDITORIAL FOUNDER PROFILE ================= */}
       <section className="py-16 md:py-24 px-4 sm:px-8 lg:px-10 relative overflow-hidden border-b border-[#f0d5dd] bg-[#faf6f7]">
         <div className="max-w-[1800px] mx-auto grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-center">
-          
+
           {/* Left Column: Portrait & Badge */}
           <div className="lg:col-span-5 relative">
             <div className="relative rounded-3xl overflow-hidden shadow-xl border border-[#f0d5dd] bg-white group">
@@ -213,7 +213,7 @@ export default function Founder() {
       {/* ================= SECTION 2: FOUNDER'S LETTER & QUOTE ================= */}
       <section className="py-20 md:py-28 px-4 sm:px-8 lg:px-10 bg-[#fcf4f6] relative overflow-hidden border-b border-[#f0d5dd]">
         <div className="max-w-4xl mx-auto relative z-10 text-center space-y-8">
-          
+
           <div className="w-16 h-16 rounded-full bg-[#fceef2] border border-[#f0d5dd] flex items-center justify-center text-[#d8617c] mx-auto shadow-sm">
             <Quote className="w-8 h-8 fill-current" />
           </div>
@@ -224,7 +224,7 @@ export default function Founder() {
 
           <div className="pt-2">
             <p className="text-sm font-semibold uppercase tracking-[0.25em] text-[#d8617c]">Lindiwe Sogolo</p>
-            <p className="text-xs text-[#5c4a50] font-light mt-1">Founder & CEO, VL MedSpa & Pampering headquaters</p>
+            <p className="text-xs text-[#5c4a50] font-light mt-1">Founder & CEO, VL MedSpa & Pampering headquarters</p>
           </div>
 
         </div>
@@ -234,7 +234,7 @@ export default function Founder() {
       {/* ================= SECTION 3: FOUNDING PHILOSOPHY PILLARS ================= */}
       <section className="py-16 md:py-24 px-4 sm:px-8 lg:px-10 bg-white relative overflow-hidden border-b border-[#f0d5dd]">
         <div className="max-w-[1800px] mx-auto">
-          
+
           <div className="text-center max-w-2xl mx-auto mb-16 space-y-3">
             <span className="text-[10px] md:text-[11px] uppercase tracking-[0.3em] text-[#d8617c] font-semibold block">
               Core Principles
@@ -283,7 +283,7 @@ export default function Founder() {
       {/* ================= SECTION 4: THE VL MEDSPA JOURNEY TIMELINE ================= */}
       <section className="py-16 md:py-24 px-4 sm:px-8 lg:px-10 bg-[#faf6f7] relative overflow-hidden border-b border-[#f0d5dd]">
         <div className="max-w-[1800px] mx-auto">
-          
+
           <div className="text-center max-w-2xl mx-auto mb-16 space-y-3">
             <span className="text-[10px] md:text-[11px] uppercase tracking-[0.3em] text-[#d8617c] font-semibold block">
               Evolution & Milestones
@@ -346,17 +346,17 @@ export default function Founder() {
           </p>
 
           <div className="pt-4 flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link 
-              to="/contact" 
+            <Link
+              to="/contact"
               className="w-full sm:w-auto inline-flex items-center justify-center gap-2 bg-[#d8617c] hover:bg-[#c44f6a] text-white text-xs font-bold uppercase tracking-[0.2em] px-8 py-4 rounded-xl transition-all shadow-[0_4px_20px_rgba(216,97,124,0.35)] active:scale-95 cursor-pointer"
             >
               <Calendar className="w-4 h-4" />
               <span>Book an Appointment</span>
             </Link>
 
-            <a 
-              href="https://wa.me/2348180822222?text=Hello%20VL%20Medspa,%20I%20would%20like%20to%20inquire%20about%20a%20consultation." 
-              target="_blank" 
+            <a
+              href="https://wa.me/2348180822222?text=Hello%20VL%20Medspa,%20I%20would%20like%20to%20inquire%20about%20a%20consultation."
+              target="_blank"
               rel="noopener noreferrer"
               className="w-full sm:w-auto inline-flex items-center justify-center gap-2 bg-white hover:bg-[#fceef2] border border-[#f0d5dd] text-[#2e1c22] text-xs font-bold uppercase tracking-[0.2em] px-8 py-4 rounded-xl transition-all shadow-sm active:scale-95 cursor-pointer"
             >
