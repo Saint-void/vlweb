@@ -45,19 +45,14 @@ export default function Footer() {
           <div className="flex flex-col items-start max-w-md">
             <div className="flex items-center gap-3">
               {/* Pink Spa Logo Mark */}
-              <div className="w-10 h-10 border border-[#d8617c] rounded-full flex items-center justify-center p-1.5 relative shadow-[0_0_15px_rgba(216,97,124,0.15)] bg-white">
-                <div className="w-full h-full border border-[#d8617c]/60 rounded-full flex items-center justify-center">
-                  <span className="w-2 h-2 rounded-full bg-[#d8617c]"></span>
-                </div>
-              </div>
+                 <img className="w-20 h-20 " src="../assets/image/vllogo-removebg-preview.png" alt="vlmedspa logo" />
               <div className="flex flex-col">
-                <span className="text-xl font-serif tracking-[0.2em] text-[#2e1c22] font-medium leading-none">OASIS</span>
-                <span className="text-[9px] tracking-[0.3em] text-[#d8617c] font-semibold uppercase mt-0.5">MEDSPA</span>
+                    <span className="text-base sm:text-lg md:text-xl font-serif tracking-[0.18em] md:tracking-[0.2em] text-[#2e1c22] font-medium leading-none">VL<span className="text-base sm:text-lg md:text-xl tracking-[0.25em] md:tracking-[0.3em] text-[#d8617c] font-semibold uppercase mt-0.5">MEDSPA</span></span>
               </div>
             </div>
 
             <p className="text-xs md:text-sm text-[#6b585e] leading-relaxed font-light mt-5">
-              Oasis Medspa & Wellness Clinic is a leading Nigerian spa brand based in Ikoyi, Lagos—offering award-winning aesthetic and wellness experiences since 2013.
+              VL medspa & Wellness Clinic is a leading Nigerian spa brand based in Abule-Egba, Lagos—offering award-winning aesthetic and wellness experiences since 2013.
             </p>
           </div>
 
@@ -76,20 +71,20 @@ export default function Footer() {
             </div>
 
             <div className="space-y-1.5">
-              <p><strong className="font-medium text-[#2e1c22]">Location:</strong> 21 Cameron Road, Ikoyi Lagos, Nigeria</p>
-              <p><strong className="font-medium text-[#2e1c22]">Email:</strong> <a href="mailto:info@oasismedspang.com" className="hover:text-[#d8617c] transition-colors">info@oasismedspang.com</a></p>
-              <p><strong className="font-medium text-[#2e1c22]">Phone:</strong> <a href="tel:+2348180822222" className="hover:text-[#d8617c] transition-colors">+234 818 082 2222</a></p>
+              <p><strong className="font-medium text-[#2e1c22]">Location:</strong>3 Olayiwola St, Charity Rd, Lagos, Nigeria</p>
+              <p><strong className="font-medium text-[#2e1c22]">Email:</strong> <a href="mailto:info@oasismedspang.com" className="hover:text-[#d8617c] transition-colors">vlemdspa@gmail.com</a></p>
+              <p><strong className="font-medium text-[#2e1c22]">Phone:</strong> <a href="tel:+2347048085536" className="hover:text-[#d8617c] transition-colors">+234 704 808 5536</a></p>
             </div>
 
             {/* Social Icons */}
             <div className="flex items-center gap-4 text-[#5c4a50] border-t sm:border-t-0 sm:border-l border-[#f0d5dd] pt-4 sm:pt-0 sm:pl-8">
-              <a href="https://facebook.com/oasismedspa" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full border border-[#f0d5dd] bg-white hover:border-[#d8617c] hover:bg-[#d8617c] hover:text-white transition-all duration-300 flex items-center justify-center shadow-sm" aria-label="Facebook">
+              <a href="https://facebook.com/vlmedspa" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full border border-[#f0d5dd] bg-white hover:border-[#d8617c] hover:bg-[#d8617c] hover:text-white transition-all duration-300 flex items-center justify-center shadow-sm" aria-label="Facebook">
                 <FacebookIcon className="w-4 h-4" />
               </a>
-              <a href="https://x.com/oasismedspa" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full border border-[#f0d5dd] bg-white hover:border-[#d8617c] hover:bg-[#d8617c] hover:text-white transition-all duration-300 flex items-center justify-center shadow-sm" aria-label="X">
+              <a href="https://x.com/vlmedspa" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full border border-[#f0d5dd] bg-white hover:border-[#d8617c] hover:bg-[#d8617c] hover:text-white transition-all duration-300 flex items-center justify-center shadow-sm" aria-label="X">
                 <XIcon className="w-3.5 h-3.5" />
               </a>
-              <a href="https://instagram.com/oasismedspang" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full border border-[#f0d5dd] bg-white hover:border-[#d8617c] hover:bg-[#d8617c] hover:text-white transition-all duration-300 flex items-center justify-center shadow-sm" aria-label="Instagram">
+              <a href="https://instagram.com/vlmedspa" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full border border-[#f0d5dd] bg-white hover:border-[#d8617c] hover:bg-[#d8617c] hover:text-white transition-all duration-300 flex items-center justify-center shadow-sm" aria-label="Instagram">
                 <InstagramIcon className="w-4 h-4" />
               </a>
             </div>
@@ -102,7 +97,7 @@ export default function Footer() {
       <section className="bg-[#faeef2] border-t border-[#f0d5dd] py-5 px-4 sm:px-8 lg:px-10 relative">
         <div className="max-w-[1800px] mx-auto flex flex-col sm:flex-row items-center justify-between gap-4 text-[11px] md:text-xs text-[#856b73] font-light">
           
-          <p>© 2025 Oasis MedSpa & Wellness Clinic. All Rights Reserved. Powered by Codefixbug Limited</p>
+          <p>© 2025 VL MedSpa & Wellness Clinic. All Rights Reserved. Powered by Void Enterprises</p>
 
           <div className="flex items-center gap-6 pr-12 sm:pr-0">
             <a href="#privacy" className="hover:text-[#d8617c] transition-colors">Privacy Policy</a>

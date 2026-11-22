@@ -37,14 +37,10 @@ export default function Navigation() {
       <nav className="absolute top-0 left-0 right-0 z-40 flex items-center justify-between px-4 sm:px-8 lg:px-12 py-6">
         {/* Brand Logo */}
         <Link to="/" className="flex items-center gap-2 sm:gap-3 group relative z-10">
-          <div className="w-7 h-7 sm:w-8 sm:h-8 md:w-9 md:h-9 border border-[#d8617c] rounded-full flex items-center justify-center p-0.5 sm:p-1 relative shadow-[0_0_15px_rgba(216,97,124,0.2)] group-hover:scale-105 transition-transform bg-white/40">
-            <div className="w-full h-full border border-[#d8617c]/60 rounded-full flex items-center justify-center">
-              <span className="w-1 h-1 sm:w-1.5 sm:h-1.5 rounded-full bg-[#d8617c]"></span>
-            </div>
-          </div>
+                    <img className="w-20 h-20 " src="../assets/image/vllogo-removebg-preview.png" alt="vlmedspa logo" />
           <div className="flex flex-col">
-            <span className="text-base sm:text-lg md:text-xl font-serif tracking-[0.18em] md:tracking-[0.2em] text-[#2e1c22] font-medium leading-none">OASIS</span>
-            <span className="text-[8px] sm:text-[9px] tracking-[0.25em] md:tracking-[0.3em] text-[#d8617c] font-semibold uppercase mt-0.5">MEDSPA</span>
+            <span className="text-base sm:text-lg md:text-xl font-serif tracking-[0.18em] md:tracking-[0.2em] text-[#2e1c22] font-medium leading-none">VL<span className="text-base sm:text-lg md:text-xl tracking-[0.25em] md:tracking-[0.3em] text-[#d8617c] font-semibold uppercase mt-0.5">MEDSPA</span></span>
+            
           </div>
         </Link>
         
@@ -90,7 +86,7 @@ export default function Navigation() {
                   </div>
                 </div>
                 <div className="flex flex-col">
-                  <span className="text-base sm:text-lg font-serif tracking-[0.18em] text-[#2e1c22] font-medium leading-none">OASIS</span>
+                  <span className="text-base sm:text-lg font-serif tracking-[0.18em] text-[#2e1c22] font-medium leading-none">VL</span>
                   <span className="text-[8px] sm:text-[9px] tracking-[0.25em] text-[#d8617c] font-semibold uppercase mt-0.5">MEDSPA</span>
                 </div>
               </Link>
@@ -153,15 +149,15 @@ export default function Navigation() {
             <div className="border-t border-[#f0d5dd] pt-6 space-y-3 text-xs text-[#6b585e] font-light">
               <div className="flex items-center gap-3">
                 <MapPin className="w-3.5 h-3.5 text-[#d8617c] shrink-0" />
-                <span>Ikoyi, Lagos, Nigeria</span>
+                <span>3 Olayiwola St, Charity Rd, Lagos, Nigeria</span>
               </div>
               <div className="flex items-center gap-3">
                 <Phone className="w-3.5 h-3.5 text-[#d8617c] shrink-0" />
-                <a href="tel:+2348180822222" className="hover:text-[#d8617c] transition-colors">+234 818 082 2222</a>
+                <a href="tel:+2347048085536" className="hover:text-[#d8617c] transition-colors">+234 704 808 5536</a>
               </div>
               <div className="flex items-center gap-3">
                 <Clock className="w-3.5 h-3.5 text-[#d8617c] shrink-0" />
-                <span>Tue – Sat: 10am – 7/8pm | Sun: 3pm – 6:30pm</span>
+                <span>Mon – Sat: 10am – 7/8pm | Sun: Closed</span>
               </div>
             </div>
           </motion.div>

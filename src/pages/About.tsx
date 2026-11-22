@@ -32,7 +32,7 @@ export default function About() {
             transition={{ duration: 0.6 }}
             className="text-4xl md:text-6xl lg:text-7xl font-serif text-[#2e1c22] font-normal tracking-wide mb-6 leading-tight"
           >
-            About Oasis Medspa
+            About VL Medspa
           </motion.h1>
 
           <motion.p 
@@ -58,11 +58,11 @@ export default function About() {
             </span>
 
             <h2 className="text-3xl md:text-4xl lg:text-5xl font-serif text-[#2e1c22] leading-tight font-normal">
-              About Oasis Medspa & Wellness Clinic
+              About VL Medspa & Wellness Clinic
             </h2>
 
             <p className="text-[#5c4a50] font-light leading-relaxed text-sm md:text-base">
-              Oasis Medspa & Wellness Clinic is a leading Nigerian spa brand based in Ikoyi, Lagos—offering award-winning aesthetic and wellness experiences since 2013. Founded by Freda Francis, we specialize in science-based, non-invasive treatments that smooth, sculpt, and rejuvenate.
+              VL Medspa & Wellness Clinic is a leading Nigerian spa brand based in Abule-Egba, Lagos—offering award-winning aesthetic and wellness experiences since 2016. Founded by Mrs Lindiwe Sogolo, we specialize in science-based, non-invasive treatments that smooth, sculpt, and rejuvenate.
             </p>
 
             <p className="text-[#5c4a50]/80 font-light leading-relaxed text-sm md:text-base">
@@ -83,17 +83,17 @@ export default function About() {
             <div className="pt-4 space-y-3 border-t border-[#f0d5dd] text-xs md:text-sm text-[#5c4a50] font-light">
               <div className="flex items-center gap-3">
                 <MapPin className="w-4 h-4 text-[#d8617c] shrink-0" />
-                <span className="text-[#2e1c22]">21 Cameron Road, Ikoyi Lagos, Nigeria</span>
+                <span className="text-[#2e1c22]">3 Olayiwola St, Charity Rd, Lagos, Nigeria</span>
               </div>
 
               <div className="flex items-center gap-3">
                 <Phone className="w-4 h-4 text-[#d8617c] shrink-0" />
-                <a href="tel:+2348180822222" className="hover:text-[#d8617c] transition-colors text-[#2e1c22]">+234 818 082 2222</a>
+                <a href="tel:+2348180822222" className="hover:text-[#d8617c] transition-colors text-[#2e1c22]">+234 704 808 5536</a>
               </div>
 
               <div className="flex items-center gap-3">
                 <Mail className="w-4 h-4 text-[#d8617c] shrink-0" />
-                <a href="mailto:info@oasismedspang.com" className="hover:text-[#d8617c] transition-colors text-[#2e1c22]">info@oasismedspang.com</a>
+                <a href="mailto:info@oasismedspang.com" className="hover:text-[#d8617c] transition-colors text-[#2e1c22]">vlmedspa@gmail.com</a>
               </div>
             </div>
           </div>
@@ -181,13 +181,13 @@ export default function About() {
 
           <div className="lg:col-span-7 space-y-6">
             <p className="text-[#5c4a50] font-light leading-relaxed text-sm md:text-base">
-              At Oasis Medspa, we are committed to creating lasting value for our clients, partners, and team —built on trust, transparency, and meaningful relationships. With a passion for aesthetics and wellness, we deliver personalized care through cutting-edge technology, expert knowledge, and global standards.
+              At VL Medspa, we are committed to creating lasting value for our clients, partners, and team —built on trust, transparency, and meaningful relationships. With a passion for aesthetics and wellness, we deliver personalized care through cutting-edge technology, expert knowledge, and global standards.
             </p>
 
             {/* Metrics Counter */}
             <div className="grid grid-cols-3 gap-6 pt-6 border-t border-[#f0d5dd] text-center sm:text-left">
               <div>
-                <span className="text-3xl md:text-5xl font-serif text-[#d8617c] font-medium block">12+</span>
+                <span className="text-3xl md:text-5xl font-serif text-[#d8617c] font-medium block">6+</span>
                 <span className="text-xs text-[#5c4a50] font-medium uppercase tracking-wider mt-1 block">Years Experience</span>
               </div>
 
@@ -198,7 +198,7 @@ export default function About() {
 
               <div>
                 <span className="text-3xl md:text-5xl font-serif text-[#d8617c] font-medium block">1</span>
-                <span className="text-xs text-[#5c4a50] font-medium uppercase tracking-wider mt-1 block">Ikoyi Location</span>
+                <span className="text-xs text-[#5c4a50] font-medium uppercase tracking-wider mt-1 block">Abule-Egba  Location</span>
               </div>
             </div>
 
@@ -219,7 +219,7 @@ export default function About() {
           </h2>
 
           <p className="text-[#5c4a50] font-light text-sm md:text-base leading-relaxed max-w-2xl mx-auto">
-            Oasis MedSpa is a haven of beauty and wellness for men and women, offering state-of-the-art solutions for skin, body and mind. We specialise in anti-ageing, skin tightening, body contouring and many other internationally acclaimed treatments.
+            VL MedSpa is a haven of beauty and wellness for men and women, offering state-of-the-art solutions for skin, body and mind. We specialise in anti-ageing, skin tightening, body contouring and many other internationally acclaimed treatments.
           </p>
 
           <div className="pt-2">
@@ -292,10 +292,10 @@ export default function About() {
             className="lg:w-1/2 relative z-10"
           >
             <h2 className="text-4xl md:text-5xl font-serif text-[#2e1c22] mb-8 leading-tight">
-              Our <span className="italic font-light text-[#d8617c]">journey</span> to<br/>Serenity...
+              Our <span className="italic font-light text-[#d8617c]">journey</span> to<br/>Pampering...
             </h2>
             <p className="text-[#5c4a50] font-light text-sm md:text-base leading-loose max-w-lg">
-              Founded with a vision of promoting peace and aesthetic excellence, Oasis Medspa believes in nurturing well-being with compassion and care. Established in Ikoyi, Lagos, our clinic has evolved into a premier sanctuary for aesthetic transformation and holistic health—offering world-class care in an environment of serene luxury.
+              Founded with a vision of promoting peace and aesthetic excellence, VL Medspa believes in nurturing well-being with compassion and care. Established in Abule-Egba, Lagos, our clinic has evolved into a premier sanctuary for aesthetic transformation and holistic health—offering world-class care in an environment of serene luxury.
             </p>
           </motion.div>
 
@@ -366,20 +366,12 @@ export default function About() {
                 
                 <ul className="space-y-3 text-sm text-[#5c4a50] font-light divide-y divide-[#f0d5dd]">
                   <li className="flex justify-between pt-2">
-                    <span className="text-[#856b73]">Monday:</span>
-                    <span className="text-[#d8617c] font-semibold">Closed</span>
-                  </li>
-                  <li className="flex justify-between pt-2">
-                    <span className="text-[#856b73]">Tuesday – Thursday:</span>
-                    <span className="text-[#2e1c22] font-medium">10am – 7pm</span>
-                  </li>
-                  <li className="flex justify-between pt-2">
-                    <span className="text-[#856b73]">Friday – Saturday:</span>
-                    <span className="text-[#2e1c22] font-medium">10am – 8pm</span>
+                    <span className="text-[#856b73]">Monday – Saturday:</span>
+                    <span className="text-[#2e1c22] font-medium">9am – 7pm</span>
                   </li>
                   <li className="flex justify-between pt-2">
                     <span className="text-[#856b73]">Sunday:</span>
-                    <span className="text-[#2e1c22] font-medium">3pm – 6:30pm</span>
+                    <span className="text-[#d8617c] font-semibold">Closed</span>
                   </li>
                 </ul>
               </div>
@@ -407,7 +399,7 @@ export default function About() {
                     <div className="w-8 h-8 rounded-lg bg-[#fceef2] flex items-center justify-center shrink-0 group-hover:bg-[#f7d0db] transition-colors">
                       <Mail className="w-4 h-4 text-[#d8617c]" />
                     </div>
-                    <span className="font-medium text-[#2e1c22]">info@oasismedspang.com</span>
+                    <span className="font-medium text-[#2e1c22]">vlmedspa@gmail.com</span>
                   </a>
 
                   <a 
@@ -417,14 +409,14 @@ export default function About() {
                     <div className="w-8 h-8 rounded-lg bg-[#fceef2] flex items-center justify-center shrink-0 group-hover:bg-[#f7d0db] transition-colors">
                       <Phone className="w-4 h-4 text-[#d8617c]" />
                     </div>
-                    <span className="font-medium text-[#2e1c22]">+234 818 082 2222</span>
+                    <span className="font-medium text-[#2e1c22]">+234 704 808 5536</span>
                   </a>
 
                   <div className="flex items-start gap-4 text-[#5c4a50] pt-2 border-t border-[#f0d5dd]">
                     <div className="w-8 h-8 rounded-lg bg-[#fceef2] flex items-center justify-center shrink-0 mt-0.5">
                       <MapPin className="w-4 h-4 text-[#d8617c]" />
                     </div>
-                    <span className="text-[#2e1c22]">Ikoyi, Lagos, Nigeria</span>
+                    <span className="text-[#2e1c22]">3 Olayiwola St, Charity Rd, Lagos, Nigeria</span>
                   </div>
                 </div>
               </div>

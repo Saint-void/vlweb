@@ -24,7 +24,7 @@ const TESTIMONIALS = [
     location: "Lagos, NG",
     rating: 5,
     treatment: "Morpheus8 Pro & Injectables",
-    quote: "I’ve visited a few medspas in Lagos, but none compare to Oasis Serenity. The environment is calming, the equipment is state-of-the-art, and the team really listens. It feels like luxury and expertise in one.",
+    quote: "I’ve visited a few medspas in Lagos, but none compare to VL medspa  . The environment is calming, the equipment is state-of-the-art, and the team really listens. It feels like luxury and expertise in one.",
     avatar: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80"
   },
   {
@@ -199,7 +199,7 @@ export default function Home() {
       <section className="relative min-h-[50vh] sm:min-h-[65vh] md:min-h-[85vh] lg:min-h-[90vh] flex items-center justify-end px-4 sm:px-8 lg:px-12 py-12 md:py-0">
         <div className="absolute inset-0 z-0">
           <img 
-            src="https://images.unsplash.com/photo-1540555700478-4be289fbecef?ixlib=rb-4.0.3&auto=format&fit=crop&w=2400&q=80" 
+            src="../assets/image/IMG_1034.JPG" 
             alt="Person relaxing in water" 
             className="w-full h-full object-cover object-center"
           />
@@ -213,11 +213,11 @@ export default function Home() {
           className="relative z-10 max-w-xl text-right pt-16 sm:pt-20 pb-4 md:pb-0"
         >
           <h1 className="text-3xl sm:text-4xl md:text-6xl lg:text-7xl font-serif text-white mb-3 sm:mb-6 leading-tight">
-            Experience calm and <br/>
-            <span className="italic font-light text-[#fcdfe6]">discover balance.</span>
+            Pampering<br/>
+            <span className="italic font-light text-[#fcdfe6]">Head-quaters.</span>
           </h1>
           <p className="text-white/90 text-xs sm:text-base md:text-xl font-light mb-6 md:mb-10 leading-relaxed max-w-md ml-auto">
-            Welcome to Serenity, where your journey to tranquility begins. Reconnect with peace, and embrace self-care.
+            Welcome to VLmedspa, where your journey to tranquility begins. Reconnect with peace, and embrace self-care.
           </p>
           <Link 
             to="/contact"
@@ -741,7 +741,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* The Oasis Standard (Lifestyle & Philosophy) */}
+      {/* VL medspa Standard  (Lifestyle & Philosophy) */}
       <section className="py-24 md:py-32 bg-[#faf6f7] text-[#2e1c22] relative overflow-hidden border-b border-[#f0d5dd]">
         {/* Subtle Background Glow */}
         <div className="absolute top-1/2 right-1/4 -translate-y-1/2 w-[600px] h-[600px] bg-[#d8617c]/6 rounded-full blur-[160px] pointer-events-none"></div>
@@ -756,7 +756,7 @@ export default function Home() {
               <div className="inline-flex items-center gap-2.5 px-4 py-1.5 rounded-full bg-[#fceef2] border border-[#f0d5dd] w-fit mb-6">
                 <Sparkles className="w-3.5 h-3.5 text-[#d8617c]" />
                 <span className="text-[11px] tracking-[0.25em] uppercase text-[#d8617c] font-semibold">
-                  The Oasis Standard
+                  VL medspa Standard
                 </span>
               </div>
 
@@ -768,7 +768,7 @@ export default function Home() {
 
               {/* Exact Description */}
               <p className="text-[#5c4a50] font-light text-base md:text-lg lg:text-xl leading-relaxed mb-8 max-w-2xl">
-                Oasis MedSpa is a haven of beauty and wellness for men and women, offering state-of-the-art solutions for skin, body and mind. We specialise in anti-ageing, skin tightening, body contouring and many other internationally acclaimed treatments and services.
+                VL MedSpa is a haven of beauty and wellness for men and women, offering state-of-the-art solutions for skin, body and mind. We specialise in anti-ageing, skin tightening, body contouring and many other internationally acclaimed treatments and services.
               </p>
 
               {/* Curated Service Pillars */}

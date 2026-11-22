@@ -10,6 +10,7 @@ import About from './pages/About';
 import Founder from './pages/Founder';
 import Gallery from './pages/Gallery';
 import Contact from './pages/Contact';
+import NotFound from './pages/NotFound';
 import PageWrapper from './components/PageWrapper';
 import { PageSkeleton } from './components/SkeletonLoader';
 import SocialSidebar from './components/SocialSidebar';
@@ -39,6 +40,7 @@ export default function App() {
           <Route path="/founder" element={<Founder />} />
           <Route path="/gallery" element={<Gallery />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="*" element={<NotFound />} />
         </Routes>
       </PageWrapper>
     </Router>

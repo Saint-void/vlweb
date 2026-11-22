@@ -29,7 +29,7 @@ function InstagramIcon({ className = "w-4 h-4" }: { className?: string }) {
 const MILESTONES = [
   {
     year: '2013',
-    title: 'The Inception in Ikoyi',
+    title: 'The Inception in Abule-Egba',
     description: 'Freda Francis established Oasis MedSpa in the tranquil heart of Ikoyi, Lagos, with a pioneering mission to bring international clinical aesthetic standards to Nigeria.'
   },
   {
@@ -104,7 +104,7 @@ export default function Founder() {
             transition={{ duration: 0.6, delay: 0.1 }}
             className="text-[#5c4a50] font-light text-base md:text-lg max-w-3xl mx-auto leading-relaxed"
           >
-            Freda Francis — Visionary entrepreneur, aesthetic pioneer, and the driving force behind West Africa’s most distinguished wellness sanctuary.
+           Lindiwe Sogolo — Visionary entrepreneur, aesthetic pioneer, and the driving force behind West Africa’s most distinguished wellness sanctuary.
           </motion.p>
         </div>
       </section>
@@ -119,8 +119,8 @@ export default function Founder() {
             <div className="relative rounded-3xl overflow-hidden shadow-xl border border-[#f0d5dd] bg-white group">
               <div className="aspect-[3/4] sm:aspect-[4/5] lg:aspect-[3/4] overflow-hidden">
                 <img
-                  src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80"
-                  alt="Freda Francis - Founder of Oasis MedSpa"
+                  src="../assets/image/founder.jpeg"
+                  alt="Lindiwe Sogolo - Founder of Oasis MedSpa"
                   className="w-full h-full object-cover object-top group-hover:scale-102 transition-transform duration-700"
                 />
               </div>
@@ -128,8 +128,8 @@ export default function Founder() {
               {/* Floating Signature Tag */}
               <div className="absolute bottom-6 left-6 right-6 p-4 sm:p-5 rounded-2xl bg-white/95 backdrop-blur-md border border-[#f0d5dd] shadow-lg flex items-center justify-between">
                 <div>
-                  <h3 className="text-base sm:text-lg font-serif font-medium text-[#2e1c22]">Freda Francis</h3>
-                  <p className="text-xs uppercase tracking-wider text-[#d8617c] font-semibold mt-0.5">Founder & CEO, Oasis MedSpa</p>
+                  <h3 className="text-base sm:text-lg font-serif font-medium text-[#2e1c22]">Lindiwe Sogolo</h3>
+                  <p className="text-xs uppercase tracking-wider text-[#d8617c] font-semibold mt-0.5">Founder & CEO, VL MedSpa</p>
                 </div>
                 <div className="w-10 h-10 rounded-xl bg-[#fceef2] border border-[#f0d5dd] flex items-center justify-center text-[#d8617c]">
                   <Sparkles className="w-5 h-5" />
@@ -155,15 +155,15 @@ export default function Founder() {
             </h2>
 
             <p className="text-[#5c4a50] font-light leading-relaxed text-sm md:text-base">
-              With a distinct vision to redefine luxury aesthetics in West Africa, <strong className="text-[#2e1c22] font-semibold">Freda Francis</strong> founded Oasis MedSpa in 2013. Recognizing the growing demand for safe, clinically certified, and non-surgical aesthetic enhancements, she established a premier sanctuary in Ikoyi, Lagos that bridges the gap between medical precision and spa indulgence.
+              With a distinct vision to redefine luxury aesthetics in West Africa, <strong className="text-[#2e1c22] font-semibold">Lindiwe Sogolo</strong> founded Oasis MedSpa in 2016. Recognizing the growing demand for safe, clinically certified, and non-surgical aesthetic enhancements, she established a premier sanctuary in Abule-Egba, Lagos that bridges the gap between medical precision and spa indulgence.
             </p>
 
             <p className="text-[#5c4a50] font-light leading-relaxed text-sm md:text-base">
-              Under her visionary leadership, Oasis MedSpa has grown from a boutique skincare practice into an award-winning clinic celebrated across Nigeria and the diaspora. Freda’s relentless commitment to innovation has brought global dermatological breakthroughs, world-class aesthetic devices, and prestigious skincare partnerships directly to Lagos.
+              Under her visionary leadership, VL MedSpa has grown from a boutique skincare practice into an award-winning clinic celebrated across Nigeria and the diaspora. Lindiwe’s relentless commitment to innovation has brought global dermatological breakthroughs, world-class aesthetic devices, and prestigious skincare partnerships directly to Lagos.
             </p>
 
             <p className="text-[#5c4a50] font-light leading-relaxed text-sm md:text-base">
-              Beyond aesthetic results, Freda is deeply committed to client education and body positivity. Her holistic philosophy treats wellness as an intimate lifestyle—one where radiant skin, inner peace, and self-assurance harmoniously elevate everyday living.
+              Beyond aesthetic results, Lindiwe is deeply committed to client education and body positivity. Her holistic philosophy treats wellness as an intimate lifestyle—one where radiant skin, inner peace, and self-assurance harmoniously elevate everyday living.
             </p>
 
             {/* Key Achievements Grid */}
@@ -195,7 +195,7 @@ export default function Founder() {
               </Link>
 
               <a
-                href="https://instagram.com/oasismedspang"
+                href="https://instagram.com/vlmedspa"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 bg-white hover:bg-[#fceef2] border border-[#f0d5dd] text-[#2e1c22] px-6 py-3.5 rounded-xl text-xs uppercase tracking-wider font-semibold transition-colors shadow-sm"
@@ -223,8 +223,8 @@ export default function Founder() {
           </h3>
 
           <div className="pt-2">
-            <p className="text-sm font-semibold uppercase tracking-[0.25em] text-[#d8617c]">Freda Francis</p>
-            <p className="text-xs text-[#5c4a50] font-light mt-1">Founder & CEO, Oasis MedSpa & Wellness Clinic</p>
+            <p className="text-sm font-semibold uppercase tracking-[0.25em] text-[#d8617c]">Lindiwe Sogolo</p>
+            <p className="text-xs text-[#5c4a50] font-light mt-1">Founder & CEO, VL MedSpa & Pampering headquaters</p>
           </div>
 
         </div>

@@ -46,41 +46,41 @@ function InstagramIcon({ className = "w-5 h-5" }: { className?: string }) {
 const SOCIAL_LINKS = [
   {
     name: 'Instagram',
-    handle: '@oasismedspang',
+    handle: '@vlmedspa',
     description: 'Follow our daily transformations & skincare education',
-    href: 'https://instagram.com/oasismedspang',
+    href: 'https://instagram.com/vlmedspa',
     icon: InstagramIcon,
     accentColor: 'hover:border-[#E1306C]/60 hover:bg-[#E1306C]/5 text-[#E1306C]',
   },
   {
     name: 'WhatsApp Concierge',
-    handle: '+234 818 082 2222',
+    handle: '+234 704 808 5536',
     description: 'Direct instant messaging & rapid appointment booking',
-    href: 'https://wa.me/2348180822222?text=Hello%20Oasis%20MedSpa,%20I%20would%20like%20to%20inquire%20about%20your%20services.',
+    href: 'https://wa.me/2347048085536?text=Hello%20VL%20MedSpa,%20I%20would%20like%20to%20inquire%20about%20your%20services.',
     icon: MessageCircle,
     accentColor: 'hover:border-[#25D366]/60 hover:bg-[#25D366]/5 text-[#25D366]',
   },
   {
     name: 'Facebook',
-    handle: 'Oasis Medspa Lagos',
+    handle: 'VL Medspa Lagos',
     description: 'Community reviews, treatments showcase & wellness articles',
-    href: 'https://facebook.com/oasismedspa',
+    href: 'https://facebook.com/vlmedpsa',
     icon: FacebookIcon,
     accentColor: 'hover:border-[#1877F2]/60 hover:bg-[#1877F2]/5 text-[#1877F2]',
   },
   {
     name: 'X (Twitter)',
-    handle: '@oasismedspa',
+    handle: '@vlmedspa',
     description: 'Latest clinic announcements & luxury wellness updates',
-    href: 'https://x.com/oasismedspa',
+    href: 'https://x.com/vlmedspa',
     icon: XIcon,
     accentColor: 'hover:border-[#d8617c]/60 hover:bg-[#fceef2] text-[#d8617c]',
   },
   {
     name: 'Direct Phone',
-    handle: '+234 818 082 2222',
+    handle: '+234 704 808 5536',
     description: 'Speak directly with our clinic front desk & specialists',
-    href: 'tel:+2348180822222',
+    href: 'tel:+2347048085536',
     icon: Phone,
     accentColor: 'hover:border-[#d8617c]/60 hover:bg-[#fceef2] text-[#d8617c]',
   },
@@ -99,9 +99,9 @@ export default function Contact() {
 
   const handleWhatsAppBooking = (e: React.FormEvent) => {
     e.preventDefault();
-    const phoneTarget = '2348180822222';
+    const phoneTarget = '2347048085536';
     const messageLines = [
-      '✨ *OASIS MEDSPA - APPOINTMENT BOOKING*',
+      '✨ *VL MEDSPA - APPOINTMENT BOOKING*',
       '----------------------------------------',
       `👤 *Name:* ${bookingForm.name || 'Guest'}`,
       `📞 *Phone / WhatsApp:* ${bookingForm.phone || 'Not specified'}`,
@@ -178,11 +178,11 @@ export default function Contact() {
                 </div>
 
                 <h2 className="text-3xl md:text-4xl lg:text-5xl font-serif text-[#2e1c22] leading-tight font-normal mb-4">
-                  We Welcome You to Oasis
+                  We Welcome You to VLMEDSPA
                 </h2>
 
                 <p className="text-[#5c4a50] font-light text-base leading-relaxed">
-                  Located in the prestigious enclave of Ikoyi, Lagos, our clinic is designed to provide private, tranquil aesthetic and wellness care. Our concierge team is standing by to assist with bookings, treatment plans, and bespoke inquiries.
+                  Located in the prestigious enclave of Abule-Egba, Lagos, our clinic is designed to provide private, tranquil aesthetic and wellness care. Our concierge team is standing by to assist with bookings, treatment plans, and bespoke inquiries.
                 </p>
               </div>
 
@@ -195,8 +195,8 @@ export default function Contact() {
                     <MapPin className="w-5 h-5" />
                   </div>
                   <h3 className="text-xs uppercase tracking-wider text-[#d8617c] font-semibold mb-1">Our Location</h3>
-                  <p className="text-sm text-[#2e1c22] font-medium">21 Cameron Road</p>
-                  <p className="text-xs text-[#5c4a50] font-light mt-0.5">Ikoyi, Lagos, Nigeria</p>
+                  <p className="text-sm text-[#2e1c22] font-medium">3 Olayiwola St, Charity Rd, </p>
+                  <p className="text-xs text-[#5c4a50] font-light mt-0.5">Abule-Egba, Lagos, Nigeria</p>
                   
                   <a 
                     href="https://maps.google.com/?q=21+Cameron+Road+Ikoyi+Lagos+Nigeria" 
@@ -215,13 +215,13 @@ export default function Contact() {
                     <Phone className="w-5 h-5" />
                   </div>
                   <h3 className="text-xs uppercase tracking-wider text-[#d8617c] font-semibold mb-1">Telephone & WhatsApp</h3>
-                  <a href="tel:+2348180822222" className="text-sm text-[#2e1c22] font-medium hover:text-[#d8617c] transition-colors block">
-                    +234 818 082 2222
+                  <a href="tel:+2347048085536" className="text-sm text-[#2e1c22] font-medium hover:text-[#d8617c] transition-colors block">
+                    +234 704 808 5536
                   </a>
                   <p className="text-xs text-[#5c4a50] font-light mt-0.5">Instant WhatsApp or direct call</p>
                   
                   <a 
-                    href="https://wa.me/2348180822222?text=Hello%20Oasis%20MedSpa,%20I%20would%20like%20to%20connect." 
+                    href="https://wa.me/2347048085536?text=Hello%20VL%20MedSpa,%20I%20would%20like%20to%20connect." 
                     target="_blank" 
                     rel="noopener noreferrer"
                     className="inline-flex items-center gap-1.5 text-xs text-[#25D366] hover:underline mt-3 font-semibold transition-colors"
@@ -237,13 +237,13 @@ export default function Contact() {
                     <Mail className="w-5 h-5" />
                   </div>
                   <h3 className="text-xs uppercase tracking-wider text-[#d8617c] font-semibold mb-1">Email Inquiries</h3>
-                  <a href="mailto:info@oasismedspang.com" className="text-sm text-[#2e1c22] font-medium hover:text-[#d8617c] transition-colors block break-all">
-                    info@oasismedspang.com
+                  <a href="mailto:vlmedspa@gmail.com" className="text-sm text-[#2e1c22] font-medium hover:text-[#d8617c] transition-colors block break-all">
+                    vlmedspa@gmail.com
                   </a>
                   <p className="text-xs text-[#5c4a50] font-light mt-0.5">Corporate & treatment inquiries</p>
                   
                   <a 
-                    href="mailto:info@oasismedspang.com" 
+                    href="mailto:vlmedspa@gmail.com" 
                     className="inline-flex items-center gap-1.5 text-xs text-[#d8617c] hover:text-[#b8435f] mt-3 font-semibold transition-colors"
                   >
                     <span>Send Email</span>
@@ -257,9 +257,8 @@ export default function Contact() {
                     <Clock className="w-5 h-5" />
                   </div>
                   <h3 className="text-xs uppercase tracking-wider text-[#d8617c] font-semibold mb-1">Operating Hours</h3>
-                  <p className="text-xs text-[#2e1c22] font-medium">Tue – Sat: <span className="text-[#d8617c] font-semibold">10:00 AM – 7:00/8:00 PM</span></p>
-                  <p className="text-xs text-[#2e1c22] font-medium mt-0.5">Sunday: <span className="text-[#d8617c] font-semibold">3:00 PM – 6:30 PM</span></p>
-                  <p className="text-[11px] text-[#856b73] font-light mt-1">Monday: Closed (Private Bookings)</p>
+                  <p className="text-xs text-[#2e1c22] font-medium mt-0.5">Monday - Saturday <span className="text-[#d8617c] font-semibold">9:00 AM – 7:00 PM</span></p>
+                  <p className="text-[11px] text-[#856b73] font-light mt-1">Sunday: Closed (Private Bookings)</p>
                 </div>
 
               </div>
@@ -493,7 +492,7 @@ export default function Contact() {
                         <CheckCircle2 className="w-3.5 h-3.5 text-[#25D366]" />
                         Direct WhatsApp automated link
                       </span>
-                      <span>Concierge: <strong className="text-[#2e1c22] font-semibold">+234 818 082 2222</strong></span>
+                      <span>Concierge: <strong className="text-[#2e1c22] font-semibold">+234 704 808 5536</strong></span>
                     </div>
                   </div>
 
@@ -506,7 +505,7 @@ export default function Contact() {
         </div>
       </section>
 
-      {/* ================= SECTION: VISIT GUIDANCE & IKOYI LOCATION MAP PREVIEW ================= */}
+      {/* ================= SECTION: VISIT GUIDANCE & Abule-Egba LOCATION MAP PREVIEW ================= */}
       <section className="py-16 md:py-20 px-4 sm:px-8 lg:px-10 bg-[#ffffff] border-b border-[#f0d5dd]">
         <div className="max-w-[1800px] mx-auto">
           
@@ -520,7 +519,7 @@ export default function Contact() {
                     Location Guide
                   </span>
                   <h3 className="text-xl md:text-2xl font-serif text-[#2e1c22] font-medium">
-                    21 Cameron Road, Ikoyi, Lagos
+                    3 Olayiwola St, Charity Rd, Lagos, Nigeria
                   </h3>
                 </div>
                 <a
@@ -538,7 +537,7 @@ export default function Contact() {
               <div className="relative w-full h-64 sm:h-72 rounded-2xl overflow-hidden border border-[#f0d5dd] bg-white">
                 <img
                   src="https://images.unsplash.com/photo-1571896349842-33c89424de2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80"
-                  alt="Oasis MedSpa Ikoyi Lagos Sanctuary"
+                  alt="3 Olayiwola St, Charity Rd, Lagos, Nigeria Sanctuary"
                   className="w-full h-full object-cover opacity-75"
                   loading="lazy"
                 />
@@ -550,14 +549,14 @@ export default function Contact() {
                     <MapPin className="w-6 h-6 fill-current" />
                   </div>
                   <div className="mt-2 px-3 py-1 rounded-md bg-white/95 backdrop-blur-md border border-[#d8617c]/50 text-[11px] font-semibold text-[#2e1c22] whitespace-nowrap shadow-lg">
-                    Oasis MedSpa Clinic
+                    VL MedSpa Clinic
                   </div>
                 </div>
 
                 {/* Bottom Address Overlay */}
                 <div className="absolute bottom-4 left-4 right-4 p-3.5 rounded-xl bg-white/90 backdrop-blur-md border border-[#f0d5dd] flex items-center justify-between text-xs shadow-sm">
                   <span className="text-[#5c4a50] font-light">Secure dedicated client parking available on Cameron Road</span>
-                  <span className="text-[#d8617c] font-semibold hidden sm:inline">Ikoyi, Lagos</span>
+                  <span className="text-[#d8617c] font-semibold hidden sm:inline">3 Olayiwola St, Charity Rd, Lagos, Nigeria</span>
                 </div>
               </div>
             </div>
