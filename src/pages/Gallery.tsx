@@ -113,7 +113,7 @@ export default function Gallery() {
           className="relative z-10 text-center mt-12 sm:mt-16 px-4"
         >
           <span className="text-[10px] sm:text-xs tracking-[0.3em] text-[#d8617c] uppercase font-semibold block mb-2 sm:mb-3">
-            Oasis Medspa Sanctuary
+            VL Medspa Sanctuary
           </span>
           <h1 className="text-3xl sm:text-5xl lg:text-6xl font-serif text-white tracking-wider uppercase flex items-center justify-center gap-2 sm:gap-4 drop-shadow-sm">
             Visual <span className="text-[#d8617c] italic font-light font-sans lowercase">x</span> Gallery

@@ -47,7 +47,7 @@ export default function About() {
       </section>
 
 
-      {/* ================= SECTION 1: ABOUT OASIS CLINIC ================= */}
+      {/* ================= SECTION 1: ABOUT VL MEDSPA CLINIC ================= */}
       <section className="py-16 md:py-24 px-4 sm:px-8 lg:px-10 relative overflow-hidden border-b border-[#f0d5dd] bg-[#faf6f7]">
         <div className="max-w-[1800px] mx-auto grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-center">
           
@@ -93,7 +93,7 @@ export default function About() {
 
               <div className="flex items-center gap-3">
                 <Mail className="w-4 h-4 text-[#d8617c] shrink-0" />
-                <a href="mailto:info@oasismedspang.com" className="hover:text-[#d8617c] transition-colors text-[#2e1c22]">vlmedspa@gmail.com</a>
+                <a href="mailto:vlmedspa@gmail.com" className="hover:text-[#d8617c] transition-colors text-[#2e1c22]">vlmedspa@gmail.com</a>
               </div>
             </div>
           </div>
@@ -103,7 +103,7 @@ export default function About() {
             <div className="relative h-[400px] sm:h-[480px] md:h-[560px] w-full rounded-2xl overflow-hidden shadow-lg border border-[#f0d5dd] bg-white">
               <img 
                 src="https://images.unsplash.com/photo-1540555700478-4be289fbecef?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80" 
-                alt="Oasis Medspa Atmosphere" 
+                alt="VL Medspa Atmosphere" 
                 className="w-full h-full object-cover"
               />
             </div>
@@ -393,7 +393,7 @@ export default function About() {
                 
                 <div className="space-y-5 text-sm font-light">
                   <a 
-                    href="mailto:info@oasismedspang.com" 
+                    href="mailto:vlmedspa@gmail.com" 
                     className="flex items-center gap-4 text-[#5c4a50] hover:text-[#d8617c] transition-colors group"
                   >
                     <div className="w-8 h-8 rounded-lg bg-[#fceef2] flex items-center justify-center shrink-0 group-hover:bg-[#f7d0db] transition-colors">

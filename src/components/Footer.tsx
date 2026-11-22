@@ -72,7 +72,7 @@ export default function Footer() {
 
             <div className="space-y-1.5">
               <p><strong className="font-medium text-[#2e1c22]">Location:</strong>3 Olayiwola St, Charity Rd, Lagos, Nigeria</p>
-              <p><strong className="font-medium text-[#2e1c22]">Email:</strong> <a href="mailto:info@oasismedspang.com" className="hover:text-[#d8617c] transition-colors">vlemdspa@gmail.com</a></p>
+              <p><strong className="font-medium text-[#2e1c22]">Email:</strong> <a href="mailto:vlmedspa@gmail.com" className="hover:text-[#d8617c] transition-colors">vlmedspa@gmail.com</a></p>
               <p><strong className="font-medium text-[#2e1c22]">Phone:</strong> <a href="tel:+2347048085536" className="hover:text-[#d8617c] transition-colors">+234 704 808 5536</a></p>
             </div>
 

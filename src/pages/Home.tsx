@@ -805,7 +805,7 @@ export default function Home() {
                 </Link>
 
                 <a
-                  href="https://wa.me/2348180822222?text=Hello%20Oasis%20MedSpa,%20I%20would%20like%20to%20learn%20more%20about%20your%20lifestyle%20and%20wellness%20services."
+                  href="https://wa.me/2348180822222?text=Hello%20VL%20Medspa,%20I%20would%20like%20to%20learn%20more%20about%20your%20lifestyle%20and%20wellness%20services."
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-2.5 px-6 py-4 rounded-full bg-white hover:bg-[#fceef2] border border-[#f0d5dd] text-xs uppercase tracking-widest text-[#2e1c22] transition-colors shadow-sm font-medium"
@@ -824,7 +824,7 @@ export default function Home() {
                 <div className="relative rounded-3xl overflow-hidden border border-[#f0d5dd] shadow-xl aspect-[4/5] bg-white">
                   <img
                     src="https://images.unsplash.com/photo-1540555700478-4be289fbecef?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80"
-                    alt="Oasis MedSpa Sanctuary Lifestyle"
+                    alt="VL Medspa Sanctuary Lifestyle"
                     className="w-full h-full object-cover object-center"
                     loading="lazy"
                   />

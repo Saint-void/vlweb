@@ -30,7 +30,7 @@ const MILESTONES = [
   {
     year: '2013',
     title: 'The Inception in Abule-Egba',
-    description: 'Freda Francis established Oasis MedSpa in the tranquil heart of Ikoyi, Lagos, with a pioneering mission to bring international clinical aesthetic standards to Nigeria.'
+    description: 'Freda Francis established VL Medspa in the tranquil heart of Ikoyi, Lagos, with a pioneering mission to bring international clinical aesthetic standards to Nigeria.'
   },
   {
     year: '2016',
@@ -40,7 +40,7 @@ const MILESTONES = [
   {
     year: '2020',
     title: 'Holistic Wellness Integration',
-    description: 'Evolved Oasis into a comprehensive aesthetics and wellness sanctuary, merging medical-grade skincare with stress-relief body therapies and detox rituals.'
+    description: 'Evolved VL Medspa into a comprehensive aesthetics and wellness sanctuary, merging medical-grade skincare with stress-relief body therapies and detox rituals.'
   },
   {
     year: 'Present',
@@ -120,7 +120,7 @@ export default function Founder() {
               <div className="aspect-[3/4] sm:aspect-[4/5] lg:aspect-[3/4] overflow-hidden">
                 <img
                   src="../assets/image/founder.jpeg"
-                  alt="Lindiwe Sogolo - Founder of Oasis MedSpa"
+                  alt="Lindiwe Sogolo - Founder of VL Medspa"
                   className="w-full h-full object-cover object-top group-hover:scale-102 transition-transform duration-700"
                 />
               </div>
@@ -155,7 +155,7 @@ export default function Founder() {
             </h2>
 
             <p className="text-[#5c4a50] font-light leading-relaxed text-sm md:text-base">
-              With a distinct vision to redefine luxury aesthetics in West Africa, <strong className="text-[#2e1c22] font-semibold">Lindiwe Sogolo</strong> founded Oasis MedSpa in 2016. Recognizing the growing demand for safe, clinically certified, and non-surgical aesthetic enhancements, she established a premier sanctuary in Abule-Egba, Lagos that bridges the gap between medical precision and spa indulgence.
+              With a distinct vision to redefine luxury aesthetics in West Africa, <strong className="text-[#2e1c22] font-semibold">Lindiwe Sogolo</strong> founded VL Medspa in 2016. Recognizing the growing demand for safe, clinically certified, and non-surgical aesthetic enhancements, she established a premier sanctuary in Abule-Egba, Lagos that bridges the gap between medical precision and spa indulgence.
             </p>
 
             <p className="text-[#5c4a50] font-light leading-relaxed text-sm md:text-base">
@@ -219,7 +219,7 @@ export default function Founder() {
           </div>
 
           <h3 className="text-2xl sm:text-3xl md:text-4xl font-serif text-[#2e1c22] font-normal leading-relaxed italic">
-            “True beauty begins with radiant health and deep self-assurance. At Oasis MedSpa, our mission is never to change who you are, but to illuminate your natural brilliance through science, art, and serene wellness.”
+            “True beauty begins with radiant health and deep self-assurance. At VL Medspa, our mission is never to change who you are, but to illuminate your natural brilliance through science, art, and serene wellness.”
           </h3>
 
           <div className="pt-2">
@@ -243,7 +243,7 @@ export default function Founder() {
               The Guiding Philosophy
             </h2>
             <p className="text-xs sm:text-sm text-[#5c4a50] font-light">
-              The foundational standards that shape every treatment, practitioner protocol, and patient interaction at Oasis.
+              The foundational standards that shape every treatment, practitioner protocol, and patient interaction at VL Medspa.
             </p>
             <div className="w-12 h-0.5 bg-[#d8617c]/40 mx-auto mt-4"></div>
           </div>
@@ -280,7 +280,7 @@ export default function Founder() {
       </section>
 
 
-      {/* ================= SECTION 4: THE OASIS JOURNEY TIMELINE ================= */}
+      {/* ================= SECTION 4: THE VL MEDSPA JOURNEY TIMELINE ================= */}
       <section className="py-16 md:py-24 px-4 sm:px-8 lg:px-10 bg-[#faf6f7] relative overflow-hidden border-b border-[#f0d5dd]">
         <div className="max-w-[1800px] mx-auto">
           
@@ -333,7 +333,7 @@ export default function Founder() {
           <div className="inline-flex items-center gap-2.5 px-4 py-1.5 rounded-full bg-[#fceef2] border border-[#f0d5dd] w-fit mx-auto">
             <Sparkles className="w-3.5 h-3.5 text-[#d8617c]" />
             <span className="text-[11px] tracking-[0.25em] uppercase text-[#d8617c] font-semibold">
-              Experience the Oasis Difference
+              Experience the VL Medspa Difference
             </span>
           </div>
 
@@ -355,7 +355,7 @@ export default function Founder() {
             </Link>
 
             <a 
-              href="https://wa.me/2348180822222?text=Hello%20Oasis%20MedSpa,%20I%20would%20like%20to%20inquire%20about%20a%20consultation." 
+              href="https://wa.me/2348180822222?text=Hello%20VL%20Medspa,%20I%20would%20like%20to%20inquire%20about%20a%20consultation." 
               target="_blank" 
               rel="noopener noreferrer"
               className="w-full sm:w-auto inline-flex items-center justify-center gap-2 bg-white hover:bg-[#fceef2] border border-[#f0d5dd] text-[#2e1c22] text-xs font-bold uppercase tracking-[0.2em] px-8 py-4 rounded-xl transition-all shadow-sm active:scale-95 cursor-pointer"

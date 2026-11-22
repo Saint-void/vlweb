@@ -56,16 +56,16 @@ export default function PageWrapper({ children }: PageWrapperProps) {
             className="fixed inset-0 z-[9990] bg-[#11100e]/70 backdrop-blur-md flex items-center justify-center pointer-events-none"
           >
             <div className="flex flex-col items-center gap-4">
-              {/* Gold Ring Spinner with Oasis Monogram Icon */}
+              {/* Gold Ring Spinner with VL Monogram Icon */}
               <div className="relative w-14 h-14 flex items-center justify-center">
                 <div className="absolute inset-0 border-2 border-[#b39578]/20 rounded-full" />
                 <div className="absolute inset-0 border-2 border-[#b39578] border-t-transparent rounded-full animate-spin" />
                 <div className="w-8 h-8 rounded-full bg-[#b39578]/10 border border-[#b39578]/40 flex items-center justify-center text-[#b39578] font-serif font-bold text-xs">
-                  O
+                  VL
                 </div>
               </div>
               <span className="text-[10px] uppercase tracking-[0.3em] text-[#b39578] font-medium animate-pulse">
-                Oasis Clinic
+                VL Medspa
               </span>
             </div>
           </motion.div>
