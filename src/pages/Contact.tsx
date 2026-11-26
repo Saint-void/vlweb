@@ -536,7 +536,7 @@ export default function Contact() {
               {/* Visual Map Sanctuary Preview */}
               <div className="relative w-full h-64 sm:h-72 rounded-2xl overflow-hidden border border-[#f0d5dd] bg-white">
                 <img
-                  src="https://images.unsplash.com/photo-1571896349842-33c89424de2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80"
+                  src="../assets/image/outside_full.jpeg"
                   alt="3 Olayiwola St, Charity Rd, Lagos, Nigeria Sanctuary"
                   className="w-full h-full object-cover opacity-75"
                   loading="lazy"

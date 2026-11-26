@@ -102,7 +102,7 @@ export default function About() {
           <div className="lg:col-span-6">
             <div className="relative h-[400px] sm:h-[480px] md:h-[560px] w-full rounded-2xl overflow-hidden shadow-lg border border-[#f0d5dd] bg-white">
               <img 
-                src="https://images.unsplash.com/photo-1540555700478-4be289fbecef?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80" 
+                src="../assets/image/val love.jpeg" 
                 alt="VL Medspa Atmosphere" 
                 className="w-full h-full object-cover"
               />

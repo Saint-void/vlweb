@@ -199,7 +199,7 @@ export default function Home() {
       <section className="relative min-h-[50vh] sm:min-h-[65vh] md:min-h-[85vh] lg:min-h-[90vh] flex items-center justify-end px-4 sm:px-8 lg:px-12 py-12 md:py-0">
         <div className="absolute inset-0 z-0">
           <img 
-            src="../assets/image/IMG_1034.JPG" 
+            src="../assets/image/recep.jpg" 
             alt="Person relaxing in water" 
             className="w-full h-full object-cover object-center"
           />
@@ -823,7 +823,7 @@ export default function Home() {
                 {/* Main Lifestyle Image */}
                 <div className="relative rounded-3xl overflow-hidden border border-[#f0d5dd] shadow-xl aspect-[4/5] bg-white">
                   <img
-                    src="https://images.unsplash.com/photo-1540555700478-4be289fbecef?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80"
+                    src="../assets/image/semi_recep.jpeg"
                     alt="VL Medspa Sanctuary Lifestyle"
                     className="w-full h-full object-cover object-center"
                     loading="lazy"
@@ -840,7 +840,7 @@ export default function Home() {
                 {/* Decorative Offset Image Accent */}
                 <div className="hidden sm:block absolute -top-8 -right-8 w-36 h-36 rounded-2xl overflow-hidden border-2 border-[#d8617c]/40 shadow-xl z-20 bg-white">
                   <img
-                    src="https://images.unsplash.com/photo-1515377905703-c4788e51af15?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+                    src="../assets/image/reception logo.jpeg"
                     alt="Clinical Skincare"
                     className="w-full h-full object-cover"
                     loading="lazy"
